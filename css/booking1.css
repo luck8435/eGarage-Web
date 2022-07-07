@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.booking-page{
+    max-width: 800px;
+    max-height: 100%;
+    margin: auto;
+    border: 1px solid black;
+    padding: 20px 20px ;
+    display: flex;
+}
+
+.register{
+    width: 100%;
+    max-height: 100%;
+    padding-top: 14px;
+    padding-bottom: 30px;
+}
+.heading h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 200;
+}
+.form{
+    width: 100%;
+    padding-top: 24px;
+}
+.form label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.form .input-text{
+    width: 100%;
+    padding-left: 20px;
+}
+.form .input-text input{
+    width: 90%;
+    border-radius: 2px;
+    border: 0.5px solid grey;
+    padding: 2px 5px;
+    font-size: 16px;
+}
+.sign{
+    font-size: 14px;
+    font-weight: 400;
+}
+.booking-container{
+    width: 100%;
+    padding: 45px 0;
+}
+.mechanic{
+    width: 100%;
+    height: 300px;
+    padding: 20px 20px;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+}
+@media(max-width: 700px){
+    .booking-page{
+        flex-direction: column;
+    }
+}
+
+.mechanic h4{
+    font-size: 20px;
+    font-weight: 600;
+}
+.mechanic p{
+    font-size: 14px;
+}
+.garage-details{
+    font-size: 16px;
+}
+.gname{
+    font-size: 18px;
+    font-weight: 600;
+}
+.gaddress{
+    font-size: 14px;
+    font-weight: 300;
+}
+.submit{
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+}
+.submit-btn{
+    color: #fff;
+    background: #c75d06;
+    padding: 8px 24px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.submit-btn:hover{
+    background: blue;
+    color: #fff;
+    text-decoration: none;
+}

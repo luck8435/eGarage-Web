@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.my-profile{
+    margin: 0 20%;
+}
+
+.profile-img {
+    color: #7d7d7d;
+    font-size: 75px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    line-height: 100px;
+}
+.edit{
+    text-align: right;
+}
+.profile{
+    padding: 20px 20px;
+}
+.profile-page{
+    display: flex;
+    padding: 20px;
+}
+.name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.email{
+    font-size: 18px;
+    font-weight: 400;
+}
+.edit-profile{
+    font-size: 14px;
+    text-decoration: underline;
+}
+
+.rating-container{
+    padding-bottom: 20px;
+}
+.mechanic-details{
+    padding: 20px 20px;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px 0;
+    border-radius: 10px;
+}
+
+.detail-container h3{
+    font-size: 32px;
+    font-weight: 600;
+}
